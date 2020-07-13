@@ -1,0 +1,34 @@
+QTableView {
+     selection-background-color: LightBlue;
+ }
+
+ QPushButton {
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f6f7fa, stop: 1 #dadbde);
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #dadbde, stop: 1 #f6f7fa);
+ }
+
+ QPushButton:flat {
+     border: none; /* для плоской кнопки границы нет */
+ }
+
+ QPushButton:default {
+     border-color: navy; /* делаем кнопку по умолчанию выпуклой */
+ }
+
+/*url(:/C:/qtlab/curswork/QtStomat/bg.jpg);*/
+QMainWindow > QWidget {
+	background: url(:/C:/qtlab/curswork/QtStomat/bg.jpg);
+}
+
+ QLabel { 
+	font: bold large "Times New Roman";
+	font-size: 14px;
+ }
